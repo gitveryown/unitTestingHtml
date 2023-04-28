@@ -1,0 +1,51 @@
+body{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: black;
+    margin: .5rem;
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none; 
+    padding: 0;
+}
+
+li {
+    padding:.5rem;
+}
+
+.logo_default {
+    width: auto; 
+   margin: auto;
+}
+
+.logo_default img {
+    min-height: fit-content;
+}
+
+ .hero {
+    width: 100%;
+    height: 100%;
+    background-image: url("images/pexels-tomáš-malík-2581922.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    
+}
