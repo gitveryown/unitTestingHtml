@@ -3,6 +3,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+
     <link rel="Stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -14,7 +19,7 @@
                 <li><a href="#">Rent</a> </li>
                 <li><a href="#">Sell</a> </li>
             </ul>
-            <div class="logo_default"><img src="images/logo.svg"></div>
+            <div class="logo_default"><img src="images/logo.svg" id="logo"></div>
             <ul>
                 
                 <li> <a href="#">Manage Rentals</a> </li>
@@ -25,16 +30,15 @@
         </nav>
     </header>
     <section class="hero">
-        <div>
+        <div class="hero_text">
             <h1> Looking for a new home? </h1>
             <form>
-                <div class="search_box">
-                <input type="search" id="search_text"
-                placeholder="Enter an address, neighborhood, 
-                city, or ZIP code">
-                <img src="images/searchIcon.png" height="24">
+                <input type="search" id="search_text" placeholder=
+                "Enter an address, neighborhood, or ZIP Code" required>
+               <img src="images/searchIcon.png" id="search_icon" height="24">
             </form>
         </div>
      </section>
+     <footer></footer>
 </body>
 </html>

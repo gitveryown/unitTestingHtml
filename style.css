@@ -2,6 +2,8 @@ body{
     color: black;
     margin: 0;
     padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 
 header {
@@ -38,6 +40,9 @@ li {
 .logo_default img {
     min-height: fit-content;
 }
+#logo {
+    margin-left: 1rem;
+}
 
  .hero {
     width: 100%;
@@ -46,6 +51,26 @@ li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-    
 }
+
+.hero_text {
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-right: 5rem;
+}
+
+.hero_text h1 {
+    font-family: 'Instrument Serif', serif;;
+    font-size:2.5rem ;
+}
+
+
+input{
+    position: relative;
+    border: 2px solid gray; 
+    padding: 8px 12px;
+    width:35vw;
+}
+
+
+
