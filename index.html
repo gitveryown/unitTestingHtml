@@ -14,31 +14,43 @@
 <body>
     <header>
         <nav> 
-            <ul>
-                <li><a href="#">Buy</a> </li>
-                <li><a href="#">Rent</a> </li>
-                <li><a href="#">Sell</a> </li>
-            </ul>
-            <div class="logo_default"><img src="images/logo.svg" id="logo"></div>
-            <ul>
+            
+                <ul class="displayList">
+                    <li><a href="buy.html">Buy</a></li>
+                    <li><a href="rent.html">Rent</a></li>
+                    <li><a href="sell.html">Sell</a></li>
+                </ul>
+
+                <div id="dropMenu">
+                    <img id="dropIcon" src="images/bars-solid.svg">
+                    <img id="closeIcon" src="images/close.svg">
+                </div>
                 
-                <li> <a href="#">Manage Rentals</a> </li>
-                <li> <a href="#">Advertise</a> </li>
-                <li> <a href="#">Sign In </a> </li>
-                
-            </ul>
+            
+                <div class="logo_default">
+                    <img src="images/logo.svg" class="logo">
+                </div>
+            
+            
+                <ul>
+                    <li> <a href="#">Manage Rentals</a> </li>
+                    <li> <a href="#">Advertise</a> </li>
+                    <li> <a href="#">Sign In </a> </li>
+                </ul>
+            
         </nav>
     </header>
     <section class="hero">
-        <div class="hero_text">
+        <span class="heroText">
             <h1> Looking for a new home? </h1>
+        </span>
             <form>
-                <input type="search" id="search_text" placeholder=
+                <input type="search" id="search" placeholder=
                 "Enter an address, neighborhood, or ZIP Code" required>
-               <img src="images/searchIcon.png" id="search_icon" height="24">
             </form>
-        </div>
      </section>
      <footer></footer>
 </body>
+
+<script src="index.js"></script>
 </html>

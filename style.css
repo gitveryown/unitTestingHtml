@@ -27,6 +27,11 @@ ul {
     list-style: none; 
     padding: 0;
 }
+#dropMenu {
+    display: none;
+}
+
+
 
 li {
     padding:.5rem;
@@ -40,7 +45,7 @@ li {
 .logo_default img {
     min-height: fit-content;
 }
-#logo {
+.logo {
     margin-left: 1rem;
 }
 
@@ -51,26 +56,44 @@ li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-.hero_text {
     text-align: center;
     padding-top: 1.5rem;
     padding-right: 5rem;
 }
 
-.hero_text h1 {
-    font-family: 'Instrument Serif', serif;;
+
+
+.heroText {
+    font-family: 'Instrument Serif', serif;
     font-size:2.5rem ;
 }
-
 
 input{
     position: relative;
     border: 2px solid gray; 
     padding: 8px 12px;
     width:35vw;
+    height: auto;
+}
+
+.searchIcon {
+    position: absolute;
+
 }
 
 
 
+@media(max-width: 896px) {
+    li {
+        display: none;
+    }
+    #dropMenu {
+      display: flex;
+      
+     
+    }
+    
+    #closeIcon {
+        display:none;
+    }
+}
