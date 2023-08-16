@@ -67,19 +67,25 @@ li {
     font-family: 'Instrument Serif', serif;
     font-size:2.5rem ;
 }
-
-input{
+form {
     position: relative;
+}
+
+input {
     border: 2px solid gray; 
     padding: 8px 12px;
     width:35vw;
     height: auto;
 }
 
-.searchIcon {
+#btn {
     position: absolute;
+    right: 33%;
+    bottom: 20%;
+   
 
 }
+
 
 
 
